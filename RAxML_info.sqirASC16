@@ -1,0 +1,75 @@
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 5715 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 5.55%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct complete random trees
+
+All free model parameters will be estimated by RAxML
+ML estimate of 25 per site rate categories
+
+Likelihood of final tree will be evaluated and optimized under GAMMA
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 5715
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+Base frequencies: ML estimate
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC-PTHREADS -s sqirASC16.aln.fa -m GTRCATX -n sqirASC16 -p 76 -T 40 -d -o NC_027283.1_Spermophilus_dauricus_mitochondrion__complete_genome —HKY85 
+
+
+Partition: 0 with name: No Name Provided
+Initial base frequencies, prior to ML estimate: 0.250 0.250 0.250 0.250 
+
+Inference[0]: Time 4.805346 CAT-based likelihood -85158.643882, best rearrangement setting 10
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 7.404752 106.629070 16.043956 4.544248 129.088290 1.000000 ML estimate base freqs[0]: 0.347251 0.251348 0.093074 0.308327 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -98657.221853 tree written to file /net/mimer/mnt/tank/projects2/animalia_mito_external/test_data/emp_data_squirrelNew/allSamples/squirrelTrees/RAxML_result.sqirASC16
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -98657.221853 .... 
+
+Final GAMMA-based Score of best tree -98656.684956
+
+Program execution info written to /net/mimer/mnt/tank/projects2/animalia_mito_external/test_data/emp_data_squirrelNew/allSamples/squirrelTrees/RAxML_info.sqirASC16
+Best-scoring ML tree written to: /net/mimer/mnt/tank/projects2/animalia_mito_external/test_data/emp_data_squirrelNew/allSamples/squirrelTrees/RAxML_bestTree.sqirASC16
+
+Overall execution time: 8.791106 secs or 0.002442 hours or 0.000102 days
+
