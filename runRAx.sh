@@ -7,7 +7,7 @@
 #SBATCH --mem=8G                       # Memory per node (adjust as needed)
 #SBATCH --time=24:00:00                # Wall time (HH:MM:SS format)
 
-raxmlHPC-PTHREADS -s cytoCHrmBwithSampsw.aln.fa -m GTRCATX -n cytoCHrmBwithSampsw -p 76 -T 40 -# 500
-raxmlHPC-PTHREADS -s sqirARich.aln.fa -m GTRCATX -n sqirARich -p 76 -T 40 -o NC_027283.1_Spermophilus_dauricus_mitochondrion__complete_genome -# 500
-raxmlHPC-PTHREADS -s sqirASC16.aln.fa -m GTRCATX -n sqirASC16 -p 76 -T 40 -o NC_027283.1_Spermophilus_dauricus_mitochondrion__complete_genome -# 500
-raxmlHPC-PTHREADS -s sqirAPyri.aln.fa -m GTRCATX -n sqirAPyri -p 76 -T 40 -o NC_027283.1_Spermophilus_dauricus_mitochondrion__complete_genome -# 500
+raxmlHPC-PTHREADS -s cytoCH.aln.fa -m GTRCATX -n cytoChrm -p 76 -T 40 -o NC_026705_CYTB_gene_Cynomys_leucurus_mitochondrion -# 1000
+raxmlHPC-PTHREADS -s sqirARich.aln.fa -m GTRCATX -n sqirARich -p 76 -T 40 -o NC_027283.1_Spermophilus_dauricus_mitochondrion__complete_genome -# 1000
+raxmlHPC-PTHREADS -s sqirASC16.aln.fa -m GTRCATX -n sqirASC16 -p 76 -T 40 -o NC_027283.1_Spermophilus_dauricus_mitochondrion__complete_genome -# 1000
+raxmlHPC-PTHREADS -s sqirAPyri.aln.fa -m GTRCATX -n sqirAPyri -p 76 -T 40 -o NC_027283.1_Spermophilus_dauricus_mitochondrion__complete_genome -# 1000
