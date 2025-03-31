@@ -1,0 +1,47 @@
+
+
+WARNING: RAxML is not checking sequences for duplicate seqs and sites with missing data!
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+RAxML Bipartition Computation: Drawing support values from trees in file RAxML_boot.sqirAPyriNew onto tree in file RAxML_bestTree.sqirAPyriNew
+
+
+RAxML was called as follows:
+
+raxmlHPC-PTHREADS -f b -m GTRCAT -z RAxML_boot.sqirAPyriNew -t RAxML_bestTree.sqirAPyriNew -n sqirAPyriNew.BS 
+
+
+
+
+Found 1 tree in File RAxML_bestTree.sqirAPyriNew
+
+
+
+Found 1000 trees in File RAxML_boot.sqirAPyriNew
+
+
+
+Found 1 tree in File RAxML_bestTree.sqirAPyriNew
+
+
+
+Time for Computation of Bipartitions 0.164754
+Tree with bipartitions written to file:  /net/mimer/mnt/tank/projects2/animalia_mito_external/test_data/emp_data_squirrelNew/allSamples/squirrelTrees/RAxML_bipartitions.sqirAPyriNew.BS
+Tree with bipartitions as branch labels written to file:  /net/mimer/mnt/tank/projects2/animalia_mito_external/test_data/emp_data_squirrelNew/allSamples/squirrelTrees/RAxML_bipartitionsBranchLabels.sqirAPyriNew.BS
+Execution information file written to :  /net/mimer/mnt/tank/projects2/animalia_mito_external/test_data/emp_data_squirrelNew/allSamples/squirrelTrees/RAxML_info.sqirAPyriNew.BS
